@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Digital Graveyard</title>
+    <style>
+        body {
+            background-image: url('Black_Hole.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: #000000;
+            /* This ensures all text defaults to white */
+            color: #ffffff; 
+            font-family: sans-serif;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Container to keep text readable and centered */
+        .content-wrapper {
+            max-width: 900px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6); /* Adds a subtle dark tint behind text */
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        h1 { 
+            letter-spacing: 5px; 
+            color: #f0f0f0; 
+            text-transform: uppercase;
+        }
+
+        .highlight {
+            color: #ff4500; /* A slight orange/fire color for contrast */
+        }
+
+        p { 
+            line-height: 1.8; 
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        .btn { 
+            display: inline-block;
+            border: 2px solid #d3d3d3; 
+            padding: 15px 40px; 
+            color: #d3d3d3; 
+            text-decoration: none; 
+            transition: 0.3s; 
+            margin: 30px 0;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .btn:hover { 
+            background-color: #d3d3d3; 
+            color: #1a1a1a; 
+        }
+
+        .tools-list {
+            font-style: italic;
+            color: #bbbbbb;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-wrapper">
+        <h1>Life's <span class="highlight">Journey</span> Soundscapes</h1>
+
+        <p><i>"Humanity begins to turn Dark and Gray like a stone cold society."</i></p>
+
+        <p>This collection of songs serves as a raw, chronological map of a profound emotional journey. It begins in the quiet echo of total loneliness, documenting the descent into a period of life so bleak it felt like an absolute void. The narrative shifts with the arrival of a girl, an encounter that initially promised light but ultimately spiraled into a labyrinth of total lies and betrayal. What remains is a haunting transition into "nightly dreams," where the music explores the surreal space between what was lost and the lingering subconscious visions that follow such a transformative heartbreak.</p>
+
+        <a href="https://soundcloud.com/notb-los-ebanos-781840256" class="btn">ENTER THE SOUND</a>
+
+        <p>
+            This production was a unique fusion of analog power and digital precision, built on the backbone of a Lenovo ThinkPad X1 Carbon 4th Gen running Ubuntu 25.10. I tracked the heart of the music using my personal 15-piece Pearl Export drum set, capturing the raw energy of a massive acoustic kit, while various AI engines were leveraged to generate sophisticated vocal performances and intricate fills that complemented the live percussion.
+        </p>
+
+        <p>
+            The entire project was helmed in <strong>Ardour</strong>, where I arranged the tracks and utilized <strong>FFMPEG</strong> via the command line to arrange the track, also add levels of bass, depth, and character to the raw inputs. To finalize the aesthetic and technical details, I designed the album artwork in <strong>GIMP</strong>, managed the metadata and ID3 tags with <strong>Kid3</strong> to ensure everything was properly categorized, and used <strong>VLC</strong> as my primary reference monitor for playback.
+        </p>
+
+        <p class="tools-list">
+            <strong>Key Tools:</strong> Pearl Export (15-pc) Acoustic Kit • Ardour • FFMPEG • GIMP • Kid3 • VLC
+        </p>
+    </div>
+
+</body>
+</html>
